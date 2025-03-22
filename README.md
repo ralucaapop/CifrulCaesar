@@ -26,7 +26,7 @@ Funcția process_file: Citește fișierul de intrare, aplică cifra lui Caesar p
 Funcția main: Gestionează argumentele liniei de comandă, determină dacă se efectuează criptarea sau decriptarea și apelează funcțiile corespunzătoare.
 
 ### Observatii:
-Textul poate conține doar litere din alfabetul englez.
+Textul poate conține doar litere din alfabetul englez, in cazul in care exista si altfel de caractere, acelea nu vor fi criptate, vor ramane neschimbate in textul criptat.
 Funcțiile de criptare și decriptare sunt case-sensitive, adică literele mari și mici sunt tratate separat.
 Dacă fișierele de intrare sau ieșire nu sunt specificate corect sau nu pot fi deschise, aplicația va afisa un mesaj de eroare și va opri execuția.
 
